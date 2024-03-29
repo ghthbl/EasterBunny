@@ -1,0 +1,107 @@
+Alle passord skrives med STORE BOKSTAVER.
+
+
+OPPGAVE 1:
+Cæsars chiffre er en metode for å kryptere meldinger ved å forskyve hver bokstav et bestemt tall steg frem i alfabetet. Julius Cæsar brukte denne enkle krypteringen for å sende beskjeder. Her vises prinsippet med det norske alfabetet, der alt er forskjøvet med 3 bokstaver (kalles da en rot-3 kode):
+
+```
+  Original:  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
+  Kryptert:  D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å A B C
+```
+
+Eksempel:
+
+Ordet som skal kodes: ÅLE
+Kode :(rot-3)
+
+Denne metoden bytter ut `Å` med `B`, `L` med `Ø`, og `E` med `O`, altså at hver bokstav forskyves tre steg frem.  ÅLE blir altså til BØO med rot-3
+
+Ditt hint: (rot-4), OVÅTXMWO
+
+
+
+OPPGAVE 2:
+Veldig ofte skjuler det seg hemmeligheter rundt oss, noen ganger også i det man leser. Enkelte ord kan skjule passordet som gir deg hintet. Nøkkelen til å avdekke disse skattene ligger i å observere det som ofte overses. Noen ganger er det første bokstaven i hver setning som holder hemmeligheten. Se nøye rundt deg og husk at alle svarene du søker kan være skjult i begynnelsen. Kreativ tenking vil lede deg til løsningen. Alle ledetråder finnes i det du leser nå, og passordet venter på å bli oppdaget. På denne reisen er lærdom og list din beste venn."
+
+Hint: les teksten over :-)
+
+
+OPPGAVE 3:
+
+
+    0  1  2  3  4  5
+  +--+--+--+--+--+--+
+6 | A| B| C| D| E| F|
+  +--+--+--+--+--+--+
+7 | G| H| I| J| K| L|
+  +--+--+--+--+--+--+
+8 | M| N| O| P| Q| R|
+  +--+--+--+--+--+--+
+9 | S| T| U| V| W| X|
+  +--+--+--+--+--+--+
+10| Y| Z|Æ|Ø|Å| _|
+  +--+--+--+--+--+--+
+
+
+Eksempel: ordet TØYS
+T finnes i rad 9, kolonne 1.Ø finnes i rad 10, kolonne 3.Y finnes i rad 10, kolonne 0.S finnes i rad 9, kolonne 0.Dermed blir koden for "TØYS": 9,1 10,3 10,0 9,0.
+
+Ditt hint:
+6,4 7,0 7,0 7,3 6,0 7,4 9,1.
+
+
+KRYPTISK
+
+VENNSKAP
+
+EGGJAKT
+
+
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gåter</title>
+</head>
+<body>
+
+<h2>OPPGAVE 1:</h2>
+<p>Cæsars chiffre er en metode for å kryptere meldinger ved å forskyve hver bokstav et bestemt tall steg frem i alfabetet. Julius Cæsar brukte denne enkle krypteringen for å sende beskjeder. Her vises prinsippet med det norske alfabetet, der alt er forskjøvet med 3 bokstaver (kalles da en rot-3 kode):</p>
+<pre>
+  Original:  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
+  Kryptert:  D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å A B C
+</pre>
+<p>Eksempel:</p>
+<p>Ordet som skal kodes: ÅLE<br>
+Kode :(rot-3)</p>
+<p>Denne metoden bytter ut <code>Å</code> med <code>B</code>, <code>L</code> med <code>Ø</code>, og <code>E</code> med <code>O</code>, altså at hver bokstav forskyves tre steg frem.  ÅLE blir altså til BØO med rot-3</p>
+<p><strong>Ditt hint:</strong> (rot-4), OVÅTXMWO</p>
+
+<h2>OPPGAVE 2:</h2>
+<p>Veldig ofte skjuler det seg hemmeligheter rundt oss, noen ganger også i det man leser. Enkelte ord kan skjule passordet som gir deg hintet. Nøkkelen til å avdekke disse skattene ligger i å observere det som ofte overses. Noen ganger er det første bokstaven i hver setning som holder hemmeligheten. Se nøye rundt deg og husk at alle svarene du søker kan være skjult i begynnelsen. Kreativ tenking vil lede deg til løsningen. Alle ledetråder finnes i det du leser nå, og passordet venter på å bli oppdaget. På denne reisen er lærdom og list din beste venn."</p>
+<p>Hint: les teksten over :-)</p>
+
+<h2>OPPGAVE 3:</h2>
+<pre>
+    0  1  2  3  4  5
+  +--+--+--+--+--+--+
+6 | A| B| C| D| E| F|
+  +--+--+--+--+--+--+
+7 | G| H| I| J| K| L|
+  +--+--+--+--+--+--+
+8 | M| N| O| P| Q| R|
+  +--+--+--+--+--+--+
+9 | S| T| U| V| W| X|
+  +--+--+--+--+--+--+
+10| Y| Z|Æ|Ø|Å| _|
+  +--+--+--+--+--+--+
+</pre>
+<p>Eksempel: ordet TØYS<br>
+T finnes i rad 9, kolonne 1. Ø finnes i rad 10, kolonne 3. Y finnes i rad 10, kolonne 0. S finnes i rad 9, kolonne 0. Dermed blir koden for "TØYS": 9,1 10,3 10,0 9,0.</p>
+<p><strong>Ditt hint:</strong><br>
+6,4 7,0 7,0 7,3 6,0 7,4 9,1.</p>
+
+</body>
+</html>
+
