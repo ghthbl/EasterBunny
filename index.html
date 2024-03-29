@@ -11,21 +11,21 @@
     var code3 = document.getElementById("code3").value;
 
     if(code1 === "EASTER1") {
-      document.getElementById("image1").style.display = "block";
+      document.getElementById("link1").style.display = "inline";
     } else {
-      document.getElementById("image1").style.display = "none";
+      document.getElementById("link1").style.display = "none";
     }
 
     if(code2 === "EASTER2") {
-      document.getElementById("image2").style.display = "block";
+      document.getElementById("link2").style.display = "inline";
     } else {
-      document.getElementById("image2").style.display = "none";
+      document.getElementById("link2").style.display = "none";
     }
 
     if(code3 === "EASTER3") {
-      document.getElementById("image3").style.display = "block";
+      document.getElementById("link3").style.display = "inline";
     } else {
-      document.getElementById("image3").style.display = "none";
+      document.getElementById("link3").style.display = "none";
     }
   }
 </script>
@@ -34,17 +34,17 @@
 
 <h2>Easter Egg Hunt Codes</h2>
 
-<label for="code1">Code 1:</label><br>
+<label for="code1">Kode 1:</label><br>
 <input type="text" id="code1" name="code1"><br>
-<img id="image1" src="https://private-user-images.githubusercontent.com/147247605/318115594-3f17c89e-cb5d-463a-9e82-75b39684a67d.jpg" style="display:none; width: 100px; height: auto;"><br>
+<a id="link1" href="https://github.com/ghthbl/EasterBunny/issues/1" style="display:none;">Easter Egg 1</a><br>
 
-<label for="code2">Code 2:</label><br>
+<label for="code2">Kode 2:</label><br>
 <input type="text" id="code2" name="code2"><br>
-<img id="image2" src="your_image_url_here_for_code_2" style="display:none; width: 100px; height: auto;"><br>
+<a id="link2" href="https://github.com/ghthbl/EasterBunny/issues/2" style="display:none;">Easter Egg 2</a><br>
 
-<label for="code3">Code 3:</label><br>
+<label for="code3">Kode 3:</label><br>
 <input type="text" id="code3" name="code3"><br>
-<img id="image3" src="your_image_url_here_for_code_3" style="display:none; width: 100px; height: auto;"><br>
+<a id="link3" href="https://github.com/ghthbl/EasterBunny/issues/3" style="display:none;">Easter Egg 3</a><br>
 
 <button onclick="checkCodes()">Submit</button>
 
